@@ -8,9 +8,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // Twilio API credentials
-const sid = 'ACfde5b4cc6a42b508370b9f3703d10179';
-const auth_token = 'af75dbd87f344d0bdc712c37076acfce';
-const fromPhoneNumber = '+12518505863';
+const sid ='';
+const auth_token = '';
+const fromPhoneNumber = '';
 
 const client = twilio(sid, auth_token);
 
